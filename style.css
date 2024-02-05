@@ -1,8 +1,13 @@
 
 
 
+li {
+    list-style: none;
+}
 
-
+ul img {
+    height: 200px;
+}
 
 
 
