@@ -3,7 +3,7 @@ button {
     cursor: pointer;    
 }
 
-li {
+.pics li {
     list-style: none;
 }
 
@@ -11,7 +11,7 @@ ul img {
     height: 200px;
 }
 
-ul {
+.pics {
     display: flex;
     gap: 50px;
     text-align: center;
@@ -27,10 +27,35 @@ ul {
     text-align: center;
 }
 
+
+#section3 {
+    background-color: rgb(218, 198, 198);
+
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 50px
+}
+
+#item {
+    border: ;
+    padding: 25px;
+    background-color: white;
+    width: 25%;
+    border-radius: 12px;
+}
+
+#item img {
+    background-color: transparent;
+    border-radius: 50%;
+}
+
 #logos {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 150px;
 
 }
 
